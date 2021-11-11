@@ -50,7 +50,7 @@ function checkLength(input,min,max){
 //check passwords
 function match(pass1,pass2){
     if(pass1.value!==pass2.value){
-        error(pass2,'Given password do not match the above');
+        error(pass2,'Given password does not match the above');
     }
 }
 //capitalise first letter
